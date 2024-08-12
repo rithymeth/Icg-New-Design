@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --primary-color: #3490dc;
+  --secondary-color: #38a169;
+  --accent-color: #f6ad55;
+  --text-color: #4a5568;
+  --background-color: #f7fafc;
+}
+
+.dark {
+  --primary-color: #4299e1;
+  --secondary-color: #48bb78;
+  --accent-color: #fbd38d;
+  --text-color: #e2e8f0;
+  --background-color: #1a202c;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
